@@ -15,7 +15,7 @@ let player = {//oops objects
     chips: 145
 }
 
-let playerEl = document.getElementById("player-el")// getting html id from html
+let playerEl = document.getElementById("player-el")// getting element id from html
 playerEl.textContent = player.name +": $" + player.chips//object "." 
 
 function getRandomCard(){//random card using math
